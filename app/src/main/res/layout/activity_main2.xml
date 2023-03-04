@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yeni_tema3"
+    tools:context=".intentActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yeni_tema3"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/bank"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:text="@string/hg"
+            android:textColor="#FF0000"
+            android:textSize="29sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:gravity="center"
+            android:text="@string/islemcumle"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="441dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/kartborcbuton"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:background="@drawable/secenekler"
+                android:text="@string/borcode"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/bakiyebuton"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/secenekler"
+                android:text="@string/bakiyesor"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/yatırmabuton"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:background="@drawable/secenekler"
+                android:text="@string/parayat"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/cekmebuton"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:background="@drawable/secenekler"
+                android:text="@string/paracek"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/cıkısbuton"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/secenekler"
+                android:text="@string/cık"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="pass">KART ŞİFRESİ</string>
+    <string name="sifre">Şifreniz</string>
+    <string name="bank">Akbank</string>
+    <string name="giris">Giriş</string>
+    <string name="sifre_unuttum">Şifremi Unuttum</string>
+    <string name="Kayıt">Kayıt Ol</string>
+    <string name="hg">HOŞGELDİNİZ</string>
+    <string name="islemcumle">Lütfen yapmak istediğiniz işlemi seçiniz.</string>
+    <string name="paracek">Para Çekme</string>
+    <string name="bakiyesor">Bakiye Sorgula</string>
+    <string name="parayat">Para Yatırma</string>
+    <string name="borcode">Kredi Borcu Ödeme</string>
+    <string name="cık">Çıkış</string>
+</resources>
